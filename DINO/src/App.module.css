@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+.app{
+    margin: 0 auto;
+    max-width: 1450px;
+    font-family: 'ABeeZee', sans-serif;
+}

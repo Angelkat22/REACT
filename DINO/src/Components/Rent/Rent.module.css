@@ -1,0 +1,19 @@
+.rent{
+    display: flex;
+}
+.rent_point{
+    padding: 200px 65px;
+}
+
+.rent_title,
+.rent_text{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-style: italic;
+    color: #22356F;
+    line-height: 55px;
+}
+.rent_img img{
+    display: block;
+}

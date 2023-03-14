@@ -1,0 +1,20 @@
+.info{
+    display: flex;
+    padding: 100px 55px 85px 185px;
+    gap: 50px;
+    background-color: #F4F9E2;
+}
+
+.info_point{
+    color: #22356F;
+}
+.info_title{
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+.info_text{
+    font-size: 24px;
+    line-height: 43px;
+}
