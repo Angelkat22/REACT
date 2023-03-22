@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+
+.btn button {
+    display: flex;
+    align-items: center;
+    transition-duration: 5s;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    background-color: lightgreen;
+    cursor: pointer;
+}  
+
+
+
