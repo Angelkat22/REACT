@@ -1,0 +1,83 @@
+.form_container{
+    padding: 30px 50px;
+    background-color: #ECF0F1;
+    border-radius: 20px;
+
+} 
+.form_container select,
+.form_container input{
+    height: 45px;
+    font-size: 15px;
+}
+
+.choise_section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 520px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+form input{
+    padding-left: 10px;
+}  
+
+::placeholder {
+    color: #000;
+}
+
+.select_section{
+    display: flex;
+    gap: 30px;
+
+}
+
+.select_section_weekdays,
+.select_section_importance{
+    position: relative;
+    flex: auto; /*длина установлена в зависимости от длины контента.*/
+    overflow: hidden; /*Отображается только область внутри элемента, остальное будет скрыто.*/
+}
+
+.select_section select{
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+
+}
+
+.select_section_weekdays::after,
+.select_section_importance::after{
+    content: url('Icons/arrow.png');
+    position: absolute;
+    right: 0;
+    padding: 15px 10px;
+    border-left: 1px solid #000;
+    cursor:  pointer;
+    pointer-events: none; 
+}
+form button{
+    background-color: #1ABC9C;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 23px;
+    height: 45px;
+    width: 165px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+
+

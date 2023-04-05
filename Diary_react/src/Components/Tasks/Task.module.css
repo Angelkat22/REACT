@@ -1,0 +1,28 @@
+
+.task {
+    padding-left: 20px;
+    width: 286px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 45px;
+}
+.task:hover > .close_mark{
+    opacity: 1;
+}
+
+.close_mark{
+    background-color: #e74c3c;
+    width: 28px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .5s ease;
+} 
