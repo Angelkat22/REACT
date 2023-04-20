@@ -1,0 +1,6 @@
+.products_container {
+    margin-left: 150px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}

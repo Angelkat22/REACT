@@ -1,0 +1,9 @@
+.users_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    max-width: 200px; 
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+}
